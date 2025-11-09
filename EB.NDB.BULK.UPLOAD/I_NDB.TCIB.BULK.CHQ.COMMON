@@ -1,0 +1,6 @@
+COM/NDB.TCIB.BULK.CHQ/hdrSelCmd,
+fnTranTable,fpTranTable,
+fnHeadTable,fpHeadTable,
+fnArcChq,fpArcChq,
+fnAccount, fpAccount,
+fnHeadTableNau,fpHeadTableNau

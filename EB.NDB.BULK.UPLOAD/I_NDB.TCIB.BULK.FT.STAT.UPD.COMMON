@@ -1,0 +1,6 @@
+COM/NDB.TCIB.BULK.FT.STAT.UPD/fnUnathHTable,
+fpUnathHTable,fnHeadTable,
+fpHeadTable,fnTranTable,
+fpTranTable,unHdrSelCmd,
+hdrSelCmd,unHdrRecs,
+hdrRecs

@@ -1,0 +1,158 @@
+component EB.ndbBulkUpload
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+
+public method ndbUploadFileValidation()
+{
+    jBC: NDB.UPLOAD.FILE.VALIDATION
+}
+
+public method ndbTcibBulkFtServiceLoad()
+{
+    jBC: NDB.TCIB.BULK.FT.SERVICE.LOAD
+}
+
+public method ndbTcibBulkFtServiceSelect()
+{
+    jBC: NDB.TCIB.BULK.FT.SERVICE.SELECT
+}
+
+public method ndbTcibBulkFtService(String ID)
+{
+    jBC: NDB.TCIB.BULK.FT.SERVICE
+}
+
+public method ndbTcibBulkHdrLoad()
+{
+    jBC: NDB.TCIB.BULK.HDR.LOAD
+}
+
+public method ndbTcibBulkHdrSelect()
+{
+    jBC: NDB.TCIB.BULK.HDR.SELECT
+}
+
+public method ndbTcibBulkHdr(String ID)
+{
+    jBC: NDB.TCIB.BULK.HDR
+}
+
+public method nofileGetTcibBulkUplErr(String DATA.LIST)
+{
+    jBC: NOFILE.GET.TCIB.BULK.UPL.ERR
+}
+
+public method ndbTcibBulkFtStatUpd() 
+{ 
+    jBC: NDB.TCIB.BULK.FT.STAT.UPD 
+}
+
+public method ndbTcibBulkFtStatUpdLoad() 
+{ 
+    jBC: NDB.TCIB.BULK.FT.STAT.UPD.LOAD
+}
+
+public method ndbTcibBulkFtStatUpdSelect() 
+{ 
+    jBC: NDB.TCIB.BULK.FT.STAT.UPD.SELECT
+}
+public method nofileNdbTcibSlips(String DATA.LIST)
+{
+    jBC: NOFILE.NDB.TCIB.SLIPS
+}
+
+public method ndbTcibSlipsFileDownload()
+{
+    jBC: NDB.TCIB.SLIPS.FILE.DOWNLOAD
+}
+
+public method ndbTcibGetSlipsFiles(String DATA.LIST)
+{
+    jBC: NOFILE.NDB.TCIB.GET.SLIPS.FILES
+}
+
+public method ndbTcibBulkCeftsFt(String ID)
+{
+    jBC: NDB.TCIB.BULK.CEFTS.FT
+}
+
+public method ndbTcibBulkCeftsFtSelect()
+{
+    jBC: NDB.TCIB.BULK.CEFTS.FT.SELECT
+}
+
+public method ndbTcibBulkCeftsFtLoad()
+{
+    jBC: NDB.TCIB.BULK.CEFTS.FT.LOAD
+}
+
+public method nofileNdbTcibErrVali(String DATA.LIST)
+{
+    jBC: NOFILE.NDB.TCIB.ERR.VALI
+}
+
+public method nofileNdbTcibOdApproval(String DATA.LIST)
+{
+    jBC: NOFILE.NDB.TCIB.OD.APPROVAL
+}
+
+public method ndbTcibBulkOdFtTrans()
+{
+    jBC: NDB.TCIB.BULK.OD.FT.TRANS
+}
+
+public method getExtUserAccts(String DATA.LIST)
+{
+    jBC: GET.EXT.USER.ACCTS
+}
+
+public method ndbTcibAccListBuild(String ENQ.DATA)
+{
+    jBC: NOFILE.NDB.TCIB.HEADER
+}
+
+public method processMainValidation(String DATA.LIST)
+{
+    jBC: PROCESS.MAIN.VALIDATION
+}
+
+public method processHdrValidation(String DATA.LIST)
+{
+    jBC: PROCESS.HDR.VALIDATION
+}
+
+public method processTranValidation(String DATA.LIST)
+{
+    jBC: PROCESS.TRAN.VALIDATION
+}
+
+public method ndbTcibHdrAuth()
+{
+    jBC: NDB.TCIB.HDR.AUTH
+}
+
+public method ndbBulkGetDateTime()
+{
+    jBC: NDB.BULK.GET.DATE.TIME
+}
+
+public method getCusCharges(String DATA.LIST)
+{
+    jBC: NDB.GET.CUS.CHARGES 
+}
+
+public method ndbTcibBulkChqLoad()
+{
+    jBC: NDB.TCIB.BULK.CHQ.LOAD
+}
+
+public method ndbTcibBulkChqSelect()
+{
+    jBC: NDB.TCIB.BULK.CHQ.SELECT
+}
+
+public method ndbTcibBulkChq(String ID)
+{
+    jBC: NDB.TCIB.BULK.CHQ
+}

@@ -1,0 +1,12 @@
+COM/NDB.TCIB.BULK.HDR/hdrSelCmd,
+controlGlAcc,slipsComType,
+ceftsComType,currDate,
+fnTranTable,fpTranTable,
+fnHeadTable,fpHeadTable,
+ceftsChargeGlAcc,slipsChargeGlAcc,
+fnAccount,fpAccount,
+fpPpClientCharges,fnPpClientCharges,
+ceftsGenCharge,slipsGenCharge,
+appName,ofsVersion,
+TransactionType,ofsSource,
+slipsGlAcc

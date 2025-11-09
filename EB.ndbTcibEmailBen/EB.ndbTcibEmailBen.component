@@ -1,0 +1,23 @@
+component EB.ndbTcibEmailBen
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+public method ndbTcibSendEmail(String ID)
+{
+    jBC: NDB.TCIB.SEND.EMAIL
+}
+
+public method ndbTcibSendEmailLoad()
+{
+    jBC: NDB.TCIB.SEND.EMAIL.LOAD
+}
+
+public method ndbTcibSendEmailSelect()
+{
+    jBC: NDB.TCIB.SEND.EMAIL.SELECT
+}
+
+public method ndbTcibSetEmailRec()
+{
+    jBC: NDB.TCIB.SET.EMAIL.REC
+}
